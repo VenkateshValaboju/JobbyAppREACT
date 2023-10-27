@@ -48,7 +48,6 @@ class Login extends Component {
       const body = await response.json()
       const token = body.jwt_token
       Cookies.set('jwt_token', token, {expires: 30})
-      console.log(body)
       history.replace('/')
     } else {
       const body = await response.json()
