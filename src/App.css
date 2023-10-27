@@ -24,3 +24,6 @@ hr {
 .icon {
   margin-right: 5px;
 }
+button {
+  border-width: 0px;
+}

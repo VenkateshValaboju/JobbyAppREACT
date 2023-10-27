@@ -45,12 +45,14 @@
   background-color: transparent;
   outline: none;
   color: #ffffff;
+  border-width: 0px;
 }
 .searchButtonJobs {
-  height: 25px;
-  width: 40px;
+  height: 27px;
+  width: 42px;
   background-color: #272727;
   color: #ffffff;
+  border-width: 0px;
 }
 .loader-container {
   display: flex;
