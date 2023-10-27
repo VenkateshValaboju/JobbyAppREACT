@@ -1,0 +1,11 @@
+.skills {
+  width: 33%;
+  margin-bottom: 45px;
+}
+.skills2 {
+  display: flex;
+  align-items: center;
+}
+.skillLogo {
+  margin-right: 15px;
+}

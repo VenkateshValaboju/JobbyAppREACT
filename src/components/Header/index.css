@@ -1,0 +1,32 @@
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  margin-top: 0px;
+  background-color: #272727;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+li {
+  list-style: none;
+}
+
+.HeaderLogo {
+  width: 120px;
+}
+.HeaderButton {
+  background-color: #272727;
+  color: #ffffff;
+  margin-right: 25px;
+}
+.LogoutButton {
+  background-color: #6366f1;
+  width: 90px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,88 @@
+.JobDetailsSection {
+  border-radius: 25px;
+  padding: 35px;
+  background-color: #272727;
+  margin: 45px;
+  color: #ffffff;
+}
+.Route3 {
+  background-color: #000000;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.JIDsection1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.companyLogoJID {
+  width: 65px;
+  height: 65px;
+  margin-right: 15px;
+}
+.JIDHeading {
+  font-size: 22px;
+}
+.JIDsection2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.JIDLocationAndEmployment {
+  display: flex;
+}
+.JIDLocation {
+  margin-right: 25px;
+}
+.JIDsection3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SkillsUL {
+  display: flex;
+  flex-wrap: wrap;
+}
+.similarJobsSection {
+  margin: 45px;
+}
+.lifeAtCompany {
+  display: flex;
+}
+.LACdescription {
+  width: 65%;
+  margin-right: 35px;
+}
+.LACImage {
+  width: 30%;
+}
+.similarJobsSectionUL {
+  display: flex;
+  flex-wrap: wrap;
+}
+.JIDLoader {
+  margin-top: 45vh;
+}
+.JIDHeading2 {
+  font-size: 25px;
+}
+.JIDFailure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retryButton {
+  color: #ffffff;
+  background-color: #6366f1;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+}
+.Visit {
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

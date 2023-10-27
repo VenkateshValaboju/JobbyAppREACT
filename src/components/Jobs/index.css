@@ -1,0 +1,79 @@
+.profileBg {
+  border-style: solid;
+}
+.jobsBg {
+  display: flex;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.profileSection {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 250px;
+  height: 218px;
+  padding: 25px;
+  border-radius: 25px;
+}
+.profileName {
+  color: #4f46e5;
+  font-size: 18px;
+}
+
+.searchInput {
+  margin-left: 43px;
+  border-style: solid;
+  border-color: #272727;
+  width: 225px;
+}
+.jobsContainer {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.filterHeadings {
+  font-size: 20px;
+  font-weight: 500;
+}
+.filtersSection {
+  color: #ffffff;
+}
+.searchJobs {
+  height: 25px;
+  width: 180px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+}
+.searchButtonJobs {
+  height: 25px;
+  width: 40px;
+  background-color: #272727;
+  color: #ffffff;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+.JobsLoader {
+  margin-left: 40vw;
+}
+.JobsFailure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 18vw;
+}
+.profileFailure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
